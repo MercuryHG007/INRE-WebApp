@@ -7,7 +7,9 @@ import TeamSection from './TeamSection';
 
 function Main() {
     return (
-        <div>
+        <div
+            className='w-[90vw]'
+        >
             <HeroSection />
             <OfferingSection />
             <TeamSection />
