@@ -8,7 +8,7 @@ import TeamSection from './TeamSection';
 function Main() {
     return (
         <div
-            className='w-[90vw]'
+            className='w-[90vw] flex flex-col gap-4 items-center'
         >
             <HeroSection />
             <OfferingSection />
