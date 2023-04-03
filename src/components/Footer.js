@@ -8,7 +8,7 @@ import logo from '../assests/img/logo-W.png'
 
 function Foot() {
   return (
-    <footer className="absolute bottom-0 w-full bg-[#002550] p-8 flex flex-col  gap-6">
+    <footer className="w-full bg-[#002550] p-8 flex flex-col  gap-6">
       <div className="flex lg:flex-row items-start justify-center gap-y-6 lg:gap-x-12 text-center md:justify-between lg:px-14 ">
         <img
           src={logo}

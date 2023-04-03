@@ -97,7 +97,7 @@ function Nav() {
   );
 
   return (
-    <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-2 lg:px-8 lg:py-4">
+    <Navbar className="sticky inset-0 z-30 h-max max-w-full rounded-none py-2 lg:px-8 lg:py-4">
       <div className="flex items-center justify-between text-blue-gray-900">
         <img
           src={logo}
@@ -105,7 +105,7 @@ function Nav() {
           width={60}
         />
         <div className="flex items-center gap-4">
-          <div className="mr-4 hidden lg:block">{navList}</div>
+          <div className="hidden lg:flex lg:gap-3">{navList}</div>
           <IconButton
             variant="text"
             className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
