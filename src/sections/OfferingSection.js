@@ -26,7 +26,7 @@ const Offerings = [
     stepName: 'Post-Registration',
     image: OfferingImg3,
     title: "Title diligence",
-    desc: "Due diligence is necessary to prevent real estate malpractices which have contributed to more than 20% of the civil cases in India. We have a panel of...",
+    desc: "Due diligence is necessary to prevent real estate malpractices which have contributed to more than 20% of the civil cases in India. We have a panel...",
   }
 ];
 

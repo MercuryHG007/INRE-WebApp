@@ -36,7 +36,7 @@ function TeamSection() {
         Our Team Members
       </h2>
       <div
-          className='lg:w-[120%] xl:w-[100%] xl:h-[78vh] flex justify-between sm:flex-col lg:flex-row gap-4'
+          className='lg:w-[120%] xl:w-[100%] xl:h-[90vh] flex justify-between sm:flex-col lg:flex-row gap-4'
         >
           {Members.map((member, i) => (
             <MemberCard

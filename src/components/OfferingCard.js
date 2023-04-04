@@ -44,7 +44,7 @@ function OfferingCard({ width, height = "30vh", step, stepName, imageURL, title,
                         {title}
                     </h2>
                     <p
-                        className='text-[#1A1A1A] font-[400] text-[18px]'
+                        className='text-[#1A1A1A] font-[400] text-[18px] text-justify'
                     >
                         {desc}
                     </p>
