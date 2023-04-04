@@ -77,7 +77,7 @@ function Foot() {
           <li>
             <Typography
               as="a"
-              href="#home"
+              href="#blog"
               color="blue-gray"
               className="text-[18px] font-normal text-white transition-colors hover:text-blue-500 focus:text-blue-500"
             >
@@ -87,7 +87,7 @@ function Foot() {
           <li>
             <Typography
               as="a"
-              href="#offerings"
+              href=""
               color="blue-gray"
               className="text-[18px] font-normal text-white transition-colors hover:text-blue-500 focus:text-blue-500"
             >

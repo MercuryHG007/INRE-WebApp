@@ -93,6 +93,24 @@ function Nav() {
           Contact Us
         </a>
       </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className={`p-1 text-lg font-semibold`}
+      >
+        <a 
+          href="#blog" 
+          className="pb-1 flex items-center"
+          style={{
+            color: activeLink==='blog' ? 'Orange' : '',
+            borderBottom: activeLink==='blog' ? '1px solid Orange' : '',
+          }}
+          onClick={() => setActiveLink('blog')}  
+        >
+          Blogs
+        </a>
+      </Typography>
     </ul>
   );
 
